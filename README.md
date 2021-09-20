@@ -8,6 +8,12 @@ const rl = readline.createInterface({
 });
 
 rl.question('Qhal o seu nome?', (nome) => {
-    console.log(`Obrigado: ${nome}`);
+    //console.log(`Obrigado: ${nome}`);
+    //rl.close();
+
+rl.question('Qhal sua idade?', (nome) => {
+    console.log(`Sua idade é: ${idade}`);
     rl.close();
+});
+
 });
